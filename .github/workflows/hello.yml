@@ -2,9 +2,9 @@ name: hello
 
 on:
   push:
-  #workflow_dispatch:
-    branches:
-      - main
+  workflow_dispatch:
+   # branches:
+    #  - main
 
 jobs:
   greet:
